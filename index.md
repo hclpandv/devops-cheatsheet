@@ -4,7 +4,7 @@
 
 <table>
 <tr><th>bash</th></tr>
-<tr><td bgcolor="#012456">
+<tr><td bgcolor="#000000">
 
 <pre style="background-color:#000000;color:#EEEDF0">
 curl -sSL https://raw.githubusercontent.com/hclpandv/bash-learning/master/colors.sh | bash
