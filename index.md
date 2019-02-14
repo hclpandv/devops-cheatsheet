@@ -18,8 +18,7 @@ curl -sSL https://raw.githubusercontent.com/hclpandv/bash-learning/master/colors
 <tr><td bgcolor="#012456">
 
 <pre style="background-color:#012456;color:#EEEDF0">
-iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/hclpandv/devops-cheatsh
-eet/master/demo.ps1'))
+iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/hclpandv/devops-cheatsheet/master/demo.ps1'))
 </pre>
   
 </td></tr> </table>
