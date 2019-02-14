@@ -7,9 +7,7 @@
 <tr><td bgcolor="#012456">
 
 <pre style="background-color:#012456;color:#EEEDF0">
-#Basic Input/Output
-$Name = Read-Host "Your Name Plz"
-Write-Host "Hello $Name"
+curl -sSL https://raw.githubusercontent.com/hclpandv/bash-learning/master/colors.sh | bash
 </pre>
   
 </td></tr> </table>
