@@ -3,7 +3,7 @@
 ### # Executing Remote Scripts from github
 
 <table>
-<tr><th>Input/Output</th></tr>
+<tr><th>bash</th></tr>
 <tr><td bgcolor="#012456">
 
 <pre style="background-color:#012456;color:#EEEDF0">
@@ -13,4 +13,15 @@ curl -sSL https://raw.githubusercontent.com/hclpandv/bash-learning/master/colors
 </td></tr> </table>
 <!---      -->
 
-### # PowerShell Tricks
+<table>
+<tr><th>PowerShell</th></tr>
+<tr><td bgcolor="#012456">
+
+<pre style="background-color:#012456;color:#EEEDF0">
+iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/hclpandv/devops-cheatsh
+eet/master/demo.ps1'))
+</pre>
+  
+</td></tr> </table>
+<!---      -->
+
