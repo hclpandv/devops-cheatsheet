@@ -26,7 +26,7 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercon
 
 
 ### 
-
+| :---            |  :---   |
 | bash            | `curl -sSL https://raw.githubusercontent.com/hclpandv/bash-learning/master/colors.sh | bash` |
-| PowerShell       | `iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/hclpandv/devops-cheatsheet/master/demo.ps1'))` |
+| PowerShell      | `iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/hclpandv/devops-cheatsheet/master/demo.ps1'))` |
 
