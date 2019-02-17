@@ -26,7 +26,8 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercon
 
 ### # Git Tutorials
 
-https://www.atlassian.com/git/tutorials
+[https://www.atlassian.com/git/tutorials](https://www.atlassian.com/git/tutorials)
+[Git-CheatSheet](atlassian-git-cheatsheet.pdf)
 
 
 
