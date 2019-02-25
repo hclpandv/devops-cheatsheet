@@ -1,7 +1,7 @@
-# devops-cheatsheet
+## devops-cheatsheet
 [Periodic table of devops tools](periodic-table-of-devops-tools-v3.pdf)
 
-### # Executing Remote Scripts from github
+#### # Executing Remote Scripts from github
 ```bash
 #!/bin/bash
 curl -sSL https://raw.githubusercontent.com/hclpandv/bash-learning/master/colors.sh | bash
@@ -13,7 +13,7 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercon
 #### # VIM Learning  
 [https://openvim.com/](https://openvim.com/)
 
-### # Git Tutorials
+#### # Git Tutorials
 ```bash
 # Create an Alias for nicely decorated graphed Log
 alias git-graph="git log --all --decorate --oneline --graph"
@@ -30,6 +30,3 @@ alias git-graph="git log --all --decorate --oneline --graph"
 #### # Ansible Learning
 * Ansible setup on Windows 10 - WSL (ubuntu)  
 [https://www.frostbyte.us/ansible-integrated-development-environment-setup-on-windows/](https://www.frostbyte.us/ansible-integrated-development-environment-setup-on-windows/)
-
-
-
