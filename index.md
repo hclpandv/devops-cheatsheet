@@ -22,6 +22,7 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercon
 -------------------------------------------
 #### Git Tutorials
 * Git Alias
+
 ```bash
 # Create an Alias for nicely decorated graphed Log
 alias git-graph="git log --all --decorate --oneline --graph"
