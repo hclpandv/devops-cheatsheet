@@ -28,7 +28,7 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercon
 alias git-graph="git log --all --decorate --oneline --graph"
 ```
 . [https://www.atlassian.com/git/tutorials](https://www.atlassian.com/git/tutorials)  
-. [Git CheatSheet](atlassian-git-cheatsheet.pdf)
+. [Git cheat sheet](atlassian-git-cheatsheet.pdf)
 
 -------------------------------------------
 #### Vagrant Learning
