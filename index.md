@@ -37,6 +37,6 @@ alias git-graph="git log --all --decorate --oneline --graph"
 
 -------------------------------------------
 #### Ansible Learning
-. [Sample](sample-ansible-playbook.md)`ansible-playbook`
+. [Sample](sample-ansible-playbook.md) `ansible-playbook`
 . Ansible setup on Windows 10 - WSL (ubuntu)  
 . [https://www.frostbyte.us/ansible-integrated-development-environment-setup-on-windows/](https://www.frostbyte.us/ansible-integrated-development-environment-setup-on-windows/)
