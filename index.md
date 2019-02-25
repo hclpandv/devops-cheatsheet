@@ -32,11 +32,11 @@ alias git-graph="git log --all --decorate --oneline --graph"
 
 -------------------------------------------
 #### Vagrant Learning
-. [Sample](sample-vagrant-file.md) `Vagrantfile`
+. [Sample](sample-vagrant-file.md) `Vagrantfile`  
 . [http://bertvv.github.io/notes-to-self/2015/10/05/one-vagrantfile-to-rule-them-all/](http://bertvv.github.io/notes-to-self/2015/10/05/one-vagrantfile-to-rule-them-all/)
 
 -------------------------------------------
 #### Ansible Learning
-. [Sample](sample-ansible-playbook.md) `ansible-playbook`
+. [Sample](sample-ansible-playbook.md) `ansible-playbook`  
 . Ansible setup on Windows 10 - WSL (ubuntu)  
 . [https://www.frostbyte.us/ansible-integrated-development-environment-setup-on-windows/](https://www.frostbyte.us/ansible-integrated-development-environment-setup-on-windows/)
