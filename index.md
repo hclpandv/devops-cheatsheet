@@ -28,7 +28,7 @@ alias git-graph="git log --all --decorate --oneline --graph"
 [http://www.theochem.ru.nl/~pwormer/teachmat/PS_cheat_sheet.html](http://www.theochem.ru.nl/~pwormer/teachmat/PS_cheat_sheet.html)
 
 #### # Ansible Learning
-* Ansible setup on Windows 10 - WSL (ubuntu)
+* Ansible setup on Windows 10 - WSL (ubuntu)  
 [https://www.frostbyte.us/ansible-integrated-development-environment-setup-on-windows/](https://www.frostbyte.us/ansible-integrated-development-environment-setup-on-windows/)
 
 
