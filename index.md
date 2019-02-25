@@ -60,7 +60,7 @@ ansible localhost -m ping
 # Use -a to provide the value of parameters
 ansible localhost -m debug -a "msg='Msg from Ansible...'"
 # Execute a playbook
-ansible-playbook -i host_file ./win-test-playbooks/win_ping.yml
+ansible-playbook -i inventory_file ./win-test-playbooks/win_ping.yml
 ```
 . Ansible setup on Windows 10 - WSL (ubuntu)  
 . [https://www.frostbyte.us/ansible-integrated-development-environment-setup-on-windows/](https://www.frostbyte.us/ansible-integrated-development-environment-setup-on-windows/)
