@@ -5,7 +5,7 @@
 ```bash
 #!/bin/bash
 curl -sSL https://raw.githubusercontent.com/hclpandv/bash-learning/master/colors.sh | bash
-
+```
 ```powershell
 # PowerShell
 iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/hclpandv/devops-cheatsheet/master/demo.ps1'))
