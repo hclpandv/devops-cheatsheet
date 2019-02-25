@@ -1,5 +1,7 @@
 ## devops-cheatsheet
-[Periodic table of devops tools](periodic-table-of-devops-tools-v3.pdf)
+
+#### # General DevOps Learning
+* [Periodic table of devops tools](periodic-table-of-devops-tools-v3.pdf)
 
 #### # Scripting Learning
 * Executing Remote Scripts from github
