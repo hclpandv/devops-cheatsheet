@@ -59,6 +59,8 @@ vagrant destroy <VM Name> # as defined in Vagrantfile
 ansible localhost -m ping
 # Use -a to provide the value of parameters
 ansible localhost -m debug -a "msg='Msg from Ansible...'"
+# Get the details of the target server (Complete facts). Usefull for hacks
+ansible windows -i inventory_file -m setup
 # Execute a playbook
 ansible-playbook -i inventory_file ./win-test-playbooks/win_ping.yml
 ```
