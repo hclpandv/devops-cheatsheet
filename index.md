@@ -33,7 +33,7 @@ alias git-graph="git log --all --decorate --oneline --graph"
 -------------------------------------------
 #### Vagrant Learning
 . [Sample](sample-vagrant-file.md) `Vagrantfile`  
-. `Vagrant` Basic commamd-Line  
+. `vagrant` Basic commamd-Line  
 
 ```bash
 # Spin up the Vagrant VM
