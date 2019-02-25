@@ -38,13 +38,12 @@ alias git-graph="git log --all --decorate --oneline --graph"
 ```bash
 # Spin up the Vagrant VM
 vagrant up
+vagrant --no-provision
 # Provision Only
 vagrant provision
-# halt - Stops he vagrant machine
-# destroy - Stops and deletes all traces of the vagrant machine
-# suspend - Suspends the vagrant machine. saves current status.
-# resume - Resumes a suspended machine
-# reload - restarts and loads new Vagrantfile config
+# halt - Stops he vagrant machine | destroy - Stops and deletes all traces of the vagrant machine 
+# suspend - Suspends the vagrant machine. saves current state.
+# resume - Resumes a suspended machine | reload - restarts and loads new Vagrantfile config
 vagrant destroy -f # -f for force i.e. no confirmation msg
 vagrant destroy <VM Name> # as defined in Vagrantfile
 ```  
