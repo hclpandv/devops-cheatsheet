@@ -1,7 +1,2 @@
 # devops-cheatsheet
-
-### # Bash Tricks
-
-
-
-### # PowerShell Tricks
+* Collection of all day to day tips and tricks related to devops 
