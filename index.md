@@ -15,6 +15,12 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercon
 ```
 . [http://www.theochem.ru.nl/~pwormer/teachmat/PS_cheat_sheet.html](http://www.theochem.ru.nl/~pwormer/teachmat/PS_cheat_sheet.html)
 
+. PowerShell Alias
+
+```powershell
+Function Get-ExeLocation ($ExeName) { return (Get-Command $ExeName).Source }
+Set-Alias -Name which -Value Get-ExeLocation
+```
 -------------------------------------------
 #### VIM Learning  
 . [https://openvim.com/](https://openvim.com/)
