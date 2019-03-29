@@ -75,5 +75,5 @@ ansible-playbook -i inventory_file ./win-test-playbooks/win_ping.yml
 
 ----------------------------------------------
 #### YAML Learning
-https://learnxinyminutes.com/docs/yaml/
+https://learnxinyminutes.com/docs/yaml/  
 . [YAML CheatSheet](yaml-cheatsheet.md) 
