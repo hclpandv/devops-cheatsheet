@@ -72,3 +72,8 @@ ansible-playbook -i inventory_file ./win-test-playbooks/win_ping.yml
 ```
 . Ansible setup on Windows 10 - WSL (ubuntu)  
 . [https://www.frostbyte.us/ansible-integrated-development-environment-setup-on-windows/](https://www.frostbyte.us/ansible-integrated-development-environment-setup-on-windows/)
+
+----------------------------------------------
+#### YAML Learning
+https://learnxinyminutes.com/docs/yaml/
+. [YAML CheatSheet](yaml-cheatsheet.md) 
