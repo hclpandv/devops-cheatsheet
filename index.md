@@ -70,7 +70,8 @@ ansible windows -i inventory_file -m setup
 # Execute a playbook
 ansible-playbook -i inventory_file ./win-test-playbooks/win_ping.yml
 ```
-. Ansible setup on Windows 10 - WSL (ubuntu)  
+. Ansible setup on Windows 10 - WSL (ubuntu) 
+. https://serversforhackers.com/c/an-ansible-tutorial (a good blog)  
 . [https://www.frostbyte.us/ansible-integrated-development-environment-setup-on-windows/](https://www.frostbyte.us/ansible-integrated-development-environment-setup-on-windows/)
 
 ----------------------------------------------
