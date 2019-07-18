@@ -25,13 +25,13 @@ nginx-59bd9cff8-97kxj   1/1     Running   0          11m   10.1.1.18   host02   
 # Curl POD IP 
 curl 10.1.1.18
 
-#-------------------------------------output
+#----------------------------------------output-----------------------------------------------------------------
 vagrant@host02:~$ curl 10.1.1.18
 <!DOCTYPE html>
 <html>
 <head>
 <title>Welcome to nginx!</title>
-#-------------------------------------output
+#----------------------------------------output-----------------------------------------------------------------
 
 
 # Create a service to interact from outside world
@@ -42,7 +42,10 @@ sudo ufw status
 sudo ufw enable
 sudo ufw allow 80/tcp
 sudo ufw status
+```
+![image](https://user-images.githubusercontent.com/13016162/61451190-84289d00-a976-11e9-8825-8dd92c25acc0.png)
 
+```
 
 # Delete service or deployment
 microk8s.kubectl delete service nginx
