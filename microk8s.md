@@ -17,22 +17,22 @@ microk8s.kubectl create deployment nginx --image=nginx:1.7.9
 # Look where pod is running
 microk8s.kubectl get pods -o wide
 
-
-```
+#----------------------------------------output-----------------------------------------------------------------
 NAME                    READY   STATUS    RESTARTS   AGE   IP          NODE     NOMINATED NODE   READINESS GATES
 nginx-59bd9cff8-97kxj   1/1     Running   0          11m   10.1.1.18   host02   <none>           <none>
-```
+#----------------------------------------output-----------------------------------------------------------------
 
 # Curl POD IP 
 curl 10.1.1.18
 
-```
+#-------------------------------------output
 vagrant@host02:~$ curl 10.1.1.18
 <!DOCTYPE html>
 <html>
 <head>
 <title>Welcome to nginx!</title>
-```
+#-------------------------------------output
+
 
 # Create a service to interact from outside world
 microk8s.kubectl create service nodeport nginx --tcp=80:80
