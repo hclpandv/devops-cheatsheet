@@ -91,6 +91,10 @@ ansible-playbook -i inventory_file ./win-test-playbooks/win_ping.yml
 . [https://www.frostbyte.us/ansible-integrated-development-environment-setup-on-windows/](https://www.frostbyte.us/ansible-integrated-development-environment-setup-on-windows/)
 
 ----------------------------------------------
+#### Kubernetes Learning
+. [microk8s](microk8s.md)
+
+----------------------------------------------
 #### YAML Learning
 https://learnxinyminutes.com/docs/yaml/  
 . [YAML CheatSheet](yaml-cheatsheet.md) 
