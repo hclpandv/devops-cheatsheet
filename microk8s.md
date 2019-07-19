@@ -20,6 +20,9 @@ watch microk8s.kubectl get all --all-namespaces
 # Create a new deployment for ngnix pod
 microk8s.kubectl create deployment nginx --image=nginx:1.7.9
 
+# Scale up/down if needed 
+microk8s.kubectl scale --replicas=3 deployment nginx
+
 # Look where pod is running
 microk8s.kubectl get pods -o wide
 
