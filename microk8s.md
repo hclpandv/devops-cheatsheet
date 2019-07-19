@@ -3,17 +3,23 @@
 ```
 # Installation
 sudo snap install microk8s --classic
+
 # get the nodes available | your own hostname should appear
 microk8s.kubectl get nodes
+
 # status
 microk8s.status
+
 # enable add-ons
 microk8s.enable dns dashboard
 microk8s.status
+
 # have look what all services are running in
 watch microk8s.kubectl get all --all-namespaces
+
 # Create a new deployment for ngnix pod
 microk8s.kubectl create deployment nginx --image=nginx:1.7.9
+
 # Look where pod is running
 microk8s.kubectl get pods -o wide
 
